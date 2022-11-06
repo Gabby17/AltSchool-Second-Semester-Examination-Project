@@ -14,6 +14,11 @@ a {
   color: white;
 }
 
+a:hover {
+  color: yellow;
+}
+
+
 button {
   margin: 20px;
   width:140px;
@@ -36,11 +41,11 @@ nav {
   justify-content: center;
 }
 .test-error input {
-  width: 60%;
+  width: 50%;
   margin: 20px ;
   padding: 20px;
-  font-size: 1.3rem;
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: medium;
   border-radius:10px;
 }
 .counter {
@@ -51,6 +56,8 @@ nav {
   justify-content: center;
 }
 .counter input {
+  font-weight: medium;
+  font-size: 1rem;
   padding: 15px;
   Border-radius:6px;
 }
